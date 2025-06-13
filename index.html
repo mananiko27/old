@@ -1,34 +1,60 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>mARTa Handicrafts</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>mARTa Handicrafts</title>
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fef9f5;
+      color: #4e3d34;
+      text-align: center;
+    }
+    header {
+      padding: 30px 20px;
+    }
+    header img {
+      max-width: 300px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #dfcdb8;
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="images/logo_main.jpg" alt="mARTa Logo" class="logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="story.html">Our Story</a>
-            <a href="creations.html">Creations</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Welcome to mARTa Handicrafts</h1>
-            <p>Where colors meet creativity, inspired by a spirit that lives on in every handmade piece.</p>
-        </section>
-        <section class="gallery-preview">
-            <img src="images/flower_rainbow.jpg" alt="Artwork">
-            <img src="images/branch_red_flowers.jpg" alt="Artwork">
-            <img src="images/sunflowers_seeds.jpg" alt="Artwork">
-            <img src="images/abstract_green_orange.jpg" alt="Artwork">
-        </section>
-    </main>
-    <footer>
-        <p>Contact us to purchase or collaborate. ❤️</p>
-    </footer>
+  <header>
+    <img src="ChatGPT Image May 4, 2025, 07_04_36 PM.png" alt="mARTa Logo" />
+  </header>
+
+  <section class="gallery">
+    <img src="E8704C8B-7A61-4287-AB5F-FE5490DD5540.jpeg" alt="Art 1" />
+    <img src="584BD6FC-62DD-4C30-BF02-7EA5223FA1B2.jpeg" alt="Art 2" />
+    <img src="37028D97-5727-4A9A-BDD4-F255F1296D25.jpeg" alt="Art 3" />
+    <img src="ED6BEEE0-FAF3-4642-B7E7-10877C95D9D4.jpeg" alt="Art 4" />
+  </section>
+
+  <footer>
+    Contact to purchase — mARTa Handicrafts
+  </footer>
 </body>
 </html>
